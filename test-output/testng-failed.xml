@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="9963165351"/>
+  <parameter name="username" value="9966756524"/>
+  <test name="Test">
+    <parameter name="password" value="9963165351"/>
+    <parameter name="username" value="9966756524"/>
+    <classes>
+      <class name="test.Flipkart">
+        <methods>
+          <include name="verifyHomePage"/>
+          <include name="verifyLogin"/>
+          <include name="verifyMobile"/>
+        </methods>
+      </class> <!-- test.Flipkart -->
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <parameter name="password" value="9963165351"/>
+    <parameter name="username" value="9966756524"/>
+    <classes>
+      <class name="test.Flipkart">
+        <methods>
+          <include name="verifyMobile"/>
+        </methods>
+      </class> <!-- test.Flipkart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,6 @@
+test\Flipkart.class
+appspec\SignUp.class
+confi\Configuration.class
+appspec\electronic\Mobiles.class
+appspec\HomePage.class
+Util\ExplicitWait.class

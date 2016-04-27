@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.408 sec <<< FAILURE! - in TestSuite
+verifyMobile(test.Flipkart)  Time elapsed: 3.016 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"xpath","selector":".//*[@id='menu-electronics-tab-0-content']/ul[1]/li[1]/a"}
+Command duration or timeout: 51 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'sys', ip: '192.168.2.9', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9ec07f08-22a2-4388-a128-61ac3f610140
+*** Element info: {Using=xpath, value=.//*[@id='menu-electronics-tab-0-content']/ul[1]/li[1]/a}
+	at test.Flipkart.verifyMobile(Flipkart.java:32)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: {"method":"xpath","selector":".//*[@id='menu-electronics-tab-0-content']/ul[1]/li[1]/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'sys', ip: '192.168.2.9', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+
